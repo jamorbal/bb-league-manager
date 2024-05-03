@@ -1,0 +1,43 @@
+.card {
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    place-items: center;
+    height: 450px;
+    width: 300px;
+    opacity: .80;
+    -webkit-box-shadow: 10px 10px 58px 29px rgba(0,0,0,0.8);
+    -moz-box-shadow: 10px 10px 58px 29px rgba(0,0,0,0.8);
+    box-shadow: 10px 10px 58px 29px rgba(0,0,0,0.8);
+    font-family: 'nufflefont';
+}
+
+.card-image.top {
+    height: 250px;
+    width: 250px;
+}
+
+.card-title.h5 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.card-text {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.blur-rule {
+    position: center;
+    height: 1px;
+    width: 100%;
+    background-color: #dedede;
+    display: block;
+    -webkit-box-shadow: 0 0 4px 0 #666;
+    -moz-box-shadow: 0 0 4px 0 #666;
+    box-shadow: 0 0 4px 0 #666;
+  }
